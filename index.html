@@ -15,12 +15,17 @@
     }
 
     body {
-      font-family: Georgia, 'Times New Roman', serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
       color: var(--text-body);
       background: #f8f8f6;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      background-image: url(https://raw.githubusercontent.com/dtritsch/tdl/main/bg.jpg);
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
 
     /* ── Header ── */
@@ -72,10 +77,10 @@
 
     .info-card {
       background: #fff;
-      border: 1px solid rgba(65, 81, 129, 0.2);
+      border: 1px solid var(--border-color);
       border-radius: 6px;
       overflow: hidden;
-      box-shadow: 0 2px 8px rgba(65, 81, 129, 0.08);
+      box-shadow: 0 2px 8px rgba(65, 81, 129, 0.18);
     }
 
     .info-card-header {
@@ -146,7 +151,7 @@
 
   <!-- Header -->
   <header>
-    <img src="TDL_Logo_2021b.png" alt="The Denture Lab">
+    <img src="https://raw.githubusercontent.com/dtritsch/tdl/main/logo.png" alt="The Denture Lab">
   </header>
 
   <!-- Main content -->
